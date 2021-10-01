@@ -1,0 +1,22 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(./fonts/Roboto-Regular.ttf) format("ttf");
+}
+@layer base {
+  h1 {
+    font-family: "Chivo", sans-serif;
+  }
+  a,
+  button {
+    font-family: "Chivo", sans-serif;
+  }
+}
+
+@tailwind utilities;
+
+body {
+  background-image: url("./assets/img.png");
+}
